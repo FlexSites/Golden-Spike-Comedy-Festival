@@ -1,0 +1,11 @@
+body {
+  background-color: #282828;
+  color: $color-white;
+  font-family: Helvetica;
+}
+a {
+  color: $color-secondary;
+  &:hover, &:active, &:visited {
+    color: $color-secondary;
+  }
+}
